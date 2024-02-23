@@ -1,0 +1,33 @@
+<p>second-child works!</p>
+<span *ngIf="approved; else pending">You are approved</span>
+<ng-template #pending>
+  <span>Approval pending...</span>
+</ng-template>
+<div>
+  <!--
+    <label for="approval">
+      Approved
+      <input
+        type="checkbox"
+        #cbApproved
+        value="approved"
+        (click)="getApproval(cbApproved)"
+      />
+    </label>
+  -->
+  <label for="fName">
+    First name:
+    <input
+      type="text"
+      #fName
+    />
+    <div>
+      <button
+        (click)="getApproval(fName)"
+      >
+        Get name
+      </button>
+    </div>
+    <span>{{ fName.value }}</span>
+  </label>
+</div>

@@ -1,0 +1,23 @@
+.checkbox-lg {
+  top: .5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.standOut {
+  font-size: larger;
+  font-weight: bold;
+}
+.firstChild {
+  border-radius: 2px;
+  border: 2px solid green;
+  background-color: cornsilk;
+  display: block;
+  padding: 6px 4px;
+}
+.secondChild {
+  border-radius: 2px;
+  border: 2px solid green;
+  background-color: blanchedalmond;
+  display: block;
+  padding: 6px 4px;
+}

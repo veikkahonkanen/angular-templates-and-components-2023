@@ -1,0 +1,14 @@
+<p>first-child works!</p>
+{{ messageFromParent }}
+<button
+  type="button"
+  (click)="generateChildMessage()"
+>
+  Send message to parent
+</button>
+<app-first-child-child
+  class="grandChild"
+>
+  <h3>Hello grand child :O</h3>
+  <h4>Bye grand child :(</h4>
+</app-first-child-child>
